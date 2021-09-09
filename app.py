@@ -6,6 +6,7 @@ from config import DevelopmentConfig
 APPLICATION_SETTINGS="./config.py"
 app = Flask(__name__)
 app.config.from_object(DevelopmentConfig)
+# set static folder and path
 app.static_url_path = app.config['STATIC_PTH']
 app.static_folder = app.config['STATIC_FOLDER']
 
