@@ -1,0 +1,8 @@
+__pycache__
+config.py
+static/node_modules
+static/yarn.lock
+static/package-lock.json
+static/dist
+static/build
+static/src/css/*.css

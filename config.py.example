@@ -1,0 +1,20 @@
+class Config(object):
+    DEBUG = False
+    TESTING = False
+    DATABASE_URI = ''
+    STATIC_PTH = '/static'
+    STATIC_FOLDER = 'static/dist'
+
+
+
+class ProductionConfig(Config):
+    STATIC_FOLDER = 'static/build'
+
+
+
+class DevelopmentConfig(Config):
+    DEBUG = True
+
+
+class TestingConfig(Config):
+    TESTING = True
