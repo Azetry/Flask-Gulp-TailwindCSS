@@ -1,5 +1,6 @@
 __pycache__
 config.py
+static/.DS_Store
 static/node_modules
 static/dist
 static/build
