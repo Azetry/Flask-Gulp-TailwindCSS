@@ -7,10 +7,9 @@
 
 /*
   Usage:
-  1. npm install //To install all dev dependencies of package
-  2. npm run dev //To start development
-  3. npm run prod //To generate minifed files
-  4. you can use yarn to replace npm
+  1. yarn install //To install all dev dependencies of package
+  2. yarn run dev //To start development
+  3. yarn run prod //To generate minifed files
 */
 
 const { src, dest, task, watch, series, parallel } = require('gulp');

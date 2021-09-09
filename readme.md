@@ -15,3 +15,7 @@ Flask Gulp TailwindCSS Framework
 ```yarn run prod```
 # Run
 ```python app.py```
+
+# Reference
++ [lazymozek/gulp-with-tailwindcss](https://github.com/lazymozek/gulp-with-tailwindcss)
++ [Page Layout Responsive By joker banny](https://tailwindcomponents.com/component/page-layout-responsive)
